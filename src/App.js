@@ -20,17 +20,17 @@ const contacts = [
     "handle": "tylermcginnis",
     "avatarURL": "http://localhost:5001/tyler.jpg"
   }
- ]
+]
 
 class App extends Component {
   render() {
     return (
       <div>
-        Hello World
-        <ListContacts contacts = {contacts}/>
+      Hello World
+      <ListContacts contacts = {contacts}/>
       </div>
-    )
+      )
+    }
   }
-}
-
-export default App
+  
+  export default App

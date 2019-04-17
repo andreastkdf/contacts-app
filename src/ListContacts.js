@@ -25,5 +25,5 @@ class ListContacts extends Component {
       )
     }
   }
-  
-  export default ListContacts
+    
+export default ListContacts

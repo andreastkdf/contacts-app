@@ -16,9 +16,11 @@ class ListContacts extends Component {
       query: query.trim()
     }))
   }
+
   clearQuery = () => {
     this.updateQuery('')
   }
+
   render() {
     const { query } = this.state
     const { contacts, onDeleteContact } = this.props
